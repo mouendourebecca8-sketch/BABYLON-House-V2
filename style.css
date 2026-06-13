@@ -48,3 +48,111 @@ a:hover{
     transform: translateY(-2px);
     box-shadow: 0 6px 16px rgba(212, 175, 55, 0.4);
 }
+.button{
+    display: inline-block;
+    padding: 15px 30px;
+    background: #FFB300;
+    color: #000;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.button:hover{ background: #FFA000;}
+.logo{
+    width: 120px;
+    height: 120px;
+    margin-bottom: 30px;
+    object-fit: contain;
+}
+body.inscription .logo{
+    width: 32px;
+    height: 32px;
+    margin-bottom: 0;
+}
+body.inscription .logo-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+    margin-bottom: 25px;
+    padding-left: 20px;
+}
+bady.description .brand-name{
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+}
+.header{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 25px;
+    padding-top: 10px;
+}
+.brand-name{
+    font-size: 14px;
+    font-weight: 700;
+    color: white #333;
+    letter-spacing: 1px;
+    font-family: 'Montserrat' , sans-serif; 
+    text-transform: uppercase; }
+input[type="text"],
+input[type="tel"],
+input[type=email],
+input[type=password]{
+    width: 100%;
+    height: 34px;
+    padding: 0 14px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    border-bottom: 1px solid #555;
+    background: white;
+    color: white;  
+    font-size: 14px;
+    outline: none;
+    margin-bottom: 16px;
+    box-sizing: border-box 
+}
+input:focus{
+    border-bottom: 2px solid #4A90E2;
+}
+::placeholder{
+    color: #666;
+    font-size: 13px;
+}
+button{
+    width: 100%;
+    height: 38px;
+    border: none;
+    border-radius: 8px;
+    background: #2563eb;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 18px;
+    cursor: pointer;
+}
+label{
+    display: block;
+    font-size: 13px;
+    color: #333;
+    margin-bottom: 6px;
+    font-weight: 500;
+}
+.logo-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+    margin-bottom: 25px;
+    padding-left: 20px;
+}
+.button:hover{
+    background: #3a7bc8;
+}
+h1 p{
+    text-align: left;
+    margin: 0 0 10px 0;  
+}
+    
