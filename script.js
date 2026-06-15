@@ -1,8 +1,7 @@
 // Popup bienvenue
 window.addEventListener('load', () => {
     setInterval(() => {
-        alert("Bienvenue sur BABYLON House");
-    }, 1000);
+        }, 1000);
 });
 //Menu burger mobile
 const menuBtn = 
